@@ -1,7 +1,7 @@
-
-#define BLYNK_TEMPLATE_ID "TMPL3osrhE21x"
+//crate your authontication tocken on blynk iot cloud
+#define BLYNK_TEMPLATE_ID "TMP*********1x"
 #define BLYNK_TEMPLATE_NAME "iot 5g project"
-#define BLYNK_AUTH_TOKEN "hvWalETlZNODm1N095adIYknNbJfQc-0"
+#define BLYNK_AUTH_TOKEN "hvWalE**************JfQc-0"
 
 #define BLYNK_PRINT Serial
 #include <WiFi.h>
@@ -14,7 +14,8 @@
 const int DHT_PIN = 15;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-#define BLYNK_AUTH_TOKEN "hvWalETlZNODm1N095adIYknNbJfQc-0"
+#define BLYNK_AUTH_TOKEN "hvWalE**************JfQc-0"
+
 DHTesp dhtSensor;
 #define DHT_TYPE DHT22
 
